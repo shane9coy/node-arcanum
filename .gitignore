@@ -1,0 +1,28 @@
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Editors
+.idea/
+.vscode/
+*.iml
+
+# Build artifacts
+*.pyc
+__pycache__/
+*.log
+
+# Private / personal (do not commit)
+personal/
+*-private.md
+*-notes.md
+
+# Local config
+.env
+.env.local
+
+# Large files (handled by Git LFS, see .gitattributes)
+# Run `git lfs install` then `git lfs track` rules below
