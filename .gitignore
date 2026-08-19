@@ -26,3 +26,9 @@ personal/
 
 # Large files (handled by Git LFS, see .gitattributes)
 # Run `git lfs install` then `git lfs track` rules below
+
+# Local artifacts (regenerated on demand; not part of public deliverable)
+shams-al-maarif/previews/
+ghayat-al-hakim/previews/
+picatrix/previews/
+**/previews/
