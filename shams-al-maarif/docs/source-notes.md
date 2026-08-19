@@ -1,14 +1,20 @@
 # Source notes — Shams al-Ma'arif translation
 
+## Authorship
+
+Translation by **Shane Coy** (@nodedotshane). The English rendering
+chain is: Arabic scan → Urdu intermediary (Shane) → English rendering
+(Shane, assisted by an LLM). The Arabic OCR + PDF composition was
+done by Mavis from the source scan.
+
 ## Translation pipeline
 
-The English translation was produced through a multi-stage pipeline:
-
-1. **OCR of the source PDF** (`source-text/shams-al-maarif.pdf`, Riyadh manuscript scan, 783 pages)
-2. **Urdu intermediary** — Arabic OCR'd text was rendered into Urdu
-3. **English rendering** — Urdu was rendered into English
-4. **Per-page markdowns** — Each manuscript page was written as a separate `page-NNNN.md` file in `translation-pages/shams-al-maarif/`
-5. **PDF rendering** — Per-page markdowns were typeset with ReportLab using Amiri (Arabic) and Times New Roman (English) fonts
+1. **Source PDF** — `shams-al-maarif/scan.pdf` in this repo, 783 pages
+2. **OCR** — Arabic text was OCR'd from the source PDF (`shams-al-maarif/ocr/`)
+3. **Urdu intermediary** — Shane rendered the Arabic into Urdu
+4. **English rendering** — Shane rendered the Urdu into English (LLM-assisted)
+5. **Per-page markdowns** — Each manuscript page was written as a separate `page-NNNN.md` file in `shams-al-maarif/pages/`
+6. **PDF composition** — Per-page markdowns + OCR were typeset with ReportLab using Amiri (Arabic) and Times New Roman (English) fonts
 
 The Arabic+English PDF (face-to-face layout) uses the OCR'd Arabic directly. The English-only PDF omits the Arabic text.
 
