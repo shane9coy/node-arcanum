@@ -17,8 +17,9 @@ __pycache__/
 
 # Private / personal (do not commit)
 personal/
+personal/*-notes.md
 *-private.md
-*-notes.md
+*-scratch.md
 
 # Local config
 .env
